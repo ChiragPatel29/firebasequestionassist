@@ -1,0 +1,15 @@
+.card-img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin: 2px;
+    text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #28a745;
+}
+div{
+    text-align: center;
+  }

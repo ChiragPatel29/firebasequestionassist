@@ -1,0 +1,362 @@
+db.questions.find({done: "0"}).count()
+
+
+Arrays
+Searching and Sorting
+// "client-install": "npm install --prefix client",
+// "start": "node server.js",
+// "server": "nodemon server.js --exec babel-node --presets babel-preset-env",
+// "client": "npm start --prefix client",
+// "dev": "concurrently \"npm run server\" \"npm run client\"",
+// "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+
+sudo lsof -i :8080
+kill -9 
+
+ db.questions.aggregate([     {$group:{_id:{sub:'$sub'}}},
+ 
+ {$group:{_id:{done:'$done'}}},{}
+ 
+        ]);
+
+
+
+db.questions.group(
+   {
+     sub:{}
+   }
+)
+
+www.ShareAppsCrack.com
+
+
+
+db.questions.aggregate([ 
+    {$group:{_id:{sub:'$sub'}}}, 
+    
+]);
+
+
+db.questions.aggregate([
+    {"$group" : {_id:"$sub", count:{$sum:1}, 
+
+
+    }}}
+])
+
+
+
+db.foo.aggregate([
+    {
+        $project: {
+            item: 1,
+            lessThan10: {  // Set to 1 if value < 10
+                $cond: [ { $lt: ["$value", 10 ] }, 1, 0]
+            },
+            moreThan10: {  // Set to 1 if value > 10
+                $cond: [ { $gt: [ "$value", 10 ] }, 1, 0]
+            }
+        }
+    }
+
+Array	https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/	
+Array	https://www.geeksforgeeks.org/find-subarray-with-given-sum/	Pep_JavaIP_1Arrays_2TarSub
+Array	https://www.geeksforgeeks.org/equilibrium-index-of-an-array/	Pep_JavaIP_1Arrays_3Equilibrium_point
+Array	https://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/	Pep_JavaIP_1Arrays_4Max_sum_increasing_subsequence
+Array	https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/	Pep_JavaIP_1Arrays_5Zigzag_array
+Array	https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/	Pep_JavaIP_1Arrays_6findpair
+Array	https://www.geeksforgeeks.org/chocolate-distribution-problem/	Pep_JavaIP_1Arrays_7Chocolate
+Array	https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/	Pep_JavaIP_1Arrays_8platforms
+Array	https://www.geeksforgeeks.org/trapping-rain-water/	Pep_JavaIP_1Arrays_9Trappingrainwater
+Array	https://www.geeksforgeeks.org/stock-buy-sell/	Pep_JavaIP_1Arrays_10StockBuySell
+Array	https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/	Pep_JavaIP_1Arrays_11rotatearray90
+Array	https://www.geeksforgeeks.org/find-k-pairs-smallest-sums-two-arrays/	Pep_JavaIP_1Arrays_12kpairsmallest
+Array	https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/	Pep_JavaIP_1Arrays_14searchInSortedAndRotated
+Array	https://www.geeksforgeeks.org/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/	Pep_JavaIP_1Arrays_15PairSumInSortedAndRotated
+Array	https://www.geeksforgeeks.org/maximum-sum-iarri-among-rotations-given-array/	Pep_JavaIP_1Arrays_16MaxsumIArrIForRotationsOfArray
+Array	https://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/	Pep_JavaIP_1Arrays_17RearrangePositiveNegative
+Array	https://www.geeksforgeeks.org/three-way-partitioning-of-an-array-around-a-given-range/	Pep_JavaIP_1Arrays_18ThreeWayPartitioning
+Array	https://www.geeksforgeeks.org/maximum-length-bitonic-subarray/	Pep_JavaIP_1Arrays_19LongestBitonicSubarray
+Array	https://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/	Pep_JavaIP_1Arrays_20LongestSubarrayWithEqual0sAnd1s
+Array	https://www.geeksforgeeks.org/maximum-product-subarray/	Pep_JavaIP_1Arrays_21MaxProductSubarray
+Array	https://www.geeksforgeeks.org/counting-inversions/	Pep_JavaIP_1Arrays_22CountingInversions
+Array	https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/	Pep_JavaIP_1Arrays_23Sort01
+Array	https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/	Pep_JavaIP_1Arrays_24Sort012
+Array	https://www.geeksforgeeks.org/merging-intervals/	Pep_JavaIP_1Arrays_25MergingIntervals
+Array	https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/	Pep_JavaIP_1Arrays_26StockBuySell2times
+Array	https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/	Pep_JavaIP_1Arrays_27StockBuySellktimes
+Array	https://www.geeksforgeeks.org/maximum-difference-between-two-elements/	Pep_JavaIP_1Arrays_28StockBuySell1time
+Array	https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/	Pep_JavaIP_1Arrays_28MinimizeTheMaximumDifference
+Array	https://www.geeksforgeeks.org/move-zeroes-end-array/	Pep_JavaIP_1Arrays_29MoveZeroesToEnd
+Array	https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/	Pep_JavaIP_1Arrays_30BringLessThanKTogetherInMinSwaps
+Array	https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/	Pep_JavaIP_1Arrays_31LargestSubarraySumwithAtleastK 
+Array	https://www.geeksforgeeks.org/form-minimum-number-from-given-sequence/	Pep_JavaIP_1Arrays_32MinimumNumberDISequence
+Array	https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/	Pep_JavaIP_1Arrays_33SmalestPossiblePositiveNumber
+Array	https://www.geeksforgeeks.org/generate-all-possible-sorted-arrays-from-alternate-elements-of-two-given-arrays/	Pep_JavaIP_1Arrays_34GenerateAllPossibleSortedArrays
+Array	https://leetcode.com/problems/next-permutation/description/	Pep_JavaIP_1Arrays_35NextPermutation
+Array	https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/	Pep_JavaIP_1Arrays_36Maximumjminusi
+Array	https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/	Pep_JavaIP_37MaximumSumof3NonOverlappingSubarrays
+Array	https://www.geeksforgeeks.org/number-subarrays-maximum-value-given-range/	Pep_JavaIP_1Arrays_38CountSAsWithMaxInRange
+Array	https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/	Pep_JavaIP_1Arrays_39NCRCombinations
+Array	https://www.geeksforgeeks.org/longest-subarray-sum-divisible-k/	Pep_JavaIP_1Arrays_40LongestSubArrayDivisibleByK
+Array	https://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/	Pep_JavaIP_1Arrays_41MinimumMergeOpsRequiredToCreatePalindrome
+Array	https://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/	Pep_JavaIP_1Arrays_42ReorderArrayIndexwise
+Array	https://www.codechef.com/JAN18/problems/MAXSC/	Pep_JavaIP_1Arrays_43MaxSCCodeChef
+Array	https://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form-set-2-o1-extra-space/	Pep_JavaIP_1Arrays_44RearrangeMaximumMinimumForm
+Array	https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/	Pep_JavaIP_45RearrangePrintBiggestNumber
+Array	https://www.geeksforgeeks.org/space-optimization-using-bit-manipulations/	Pep_JavaIP_1Arrays_46SpaceOptimizationUsingBits
+Array	https://www.geeksforgeeks.org/mos-algorithm-query-square-root-decomposition-set-1-introduction/	SQUARE ROOT DECOMPOSTION (enough said :p)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.questions.insert({  
+name: "KCON",     
+url:"https://www.codechef.com/JAN18/problems/KCON/",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"arrays",     done:"0"  })
+
+
+
+
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+db.questions.insert({  
+name: "MongoDB Overview",     
+url:"https://practice.geeksforgeeks.org/problems/equilibrium-point/0",     
+
+sub:"sat",     done:"0"  })
+
+
+
+
+
+
+
+
+https://www.geeksforgeeks.org/print-elements-sorted-order-row-column-wise-sorted-matrix/
+https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/
+https://www.geeksforgeeks.org/find-number-of-islands/
+https://www.geeksforgeeks.org/given-matrix-o-x-replace-o-x-surrounded-x/
+https://www.geeksforgeeks.org/validity-of-a-given-tic-tac-toe-board-configuration/+
+https://www.geeksforgeeks.org/given-matrix-o-x-find-largest-subsquare-surrounded-x/
+https://www.geeksforgeeks.org/rotate-matrix-elements/
+https://www.geeksforgeeks.org/find-common-element-rows-row-wise-sorted-matrix/
+https://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/
+https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/
+https://www.geeksforgeeks.org/find-a-specific-pair-in-matrix/
+https://www.geeksforgeeks.org/find-orientation-of-a-pattern-in-a-matrix/
+https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
+https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/
+https://www.geeksforgeeks.org/kth-smallest-element-in-a-row-wise-and-column-wise-sorted-2d-array-set-1/
+https://www.geeksforgeeks.org/a-boolean-matrix-question/
+https://www.geeksforgeeks.org/search-a-word-in-a-2d-grid-of-characters/
+
+
+
+db.questions.deleteMany({sub:"maths"})
+Questions.deleteMany({sub:"geo"})
+Questions.deleteMany({sub:"trie"})
+
+
+
+mongo "mongodb+srv://cluster0.re99k.mongodb.net/<dbname>" --username admin
